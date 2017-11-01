@@ -3,40 +3,40 @@ Base setup information
 
 
 ## setup
-###Database
+### Database
 * Use DB.sql file in root
 
-###css
+### css
 * Setup stylesheets in 4-pages for existing pages, include these in the files seperately
 
-###img/favico
+### img/favico
 * Create favico via https://realfavicongenerator.net/
-####manifest.json
+#### manifest.json
 * Change name (this is the web app name and default shortcut name)
 * Change background_color (this is the web app launch screen background)
 * Change the start url (with http(s):// and / at the end)
 
-###js
+### js
 * Create functions.js file in 2-pages for each file that is created, include these in the files seperately
 
-###php
-####init.php
+### php
+#### init.php
 * Set GLOBALS (mysql, confirm, forgot, captcha, lang, meta)
-####Mail.class.php
+#### Mail.class.php
 * Setup mail contents
 
-###xml
+### xml
 * setup languages.xml and use this for all website content to support a multi language webiste
 
-###errors
+### errors
 * Setup error pages
 
 ## Usage
-###img
+### img
 * Create img folders to store images
 
-###php
+### php
 * Use files in php folder for references to script needed to use
 
-###index.php
+### index.php
 * Use this as a reference for index files
